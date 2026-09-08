@@ -1,0 +1,31 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/home/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm create vite@latest my-project
+8 verbose argv "create" "vite@latest" "my-project"
+9 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-09-06T06_29_06_289Z-
+10 verbose logfile /home/.npm/_logs/2026-09-06T06_29_06_289Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 557ms (cache miss)
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 verbose stack Error: canceled
+16 verbose stack     at exec (/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:286:19)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+16 verbose stack     at async Init.execCreate (/usr/lib/node_modules/npm/lib/commands/init.js:135:5)
+16 verbose stack     at async Init.exec (/usr/lib/node_modules/npm/lib/commands/init.js:44:14)
+16 verbose stack     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+16 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5)
+17 error canceled
+18 verbose cwd /public
+19 verbose os Linux 6.12.38-android16-5-abA075FXXS6CZF6-4k
+20 verbose node v22.23.0
+21 verbose npm  v10.9.1
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: /home/.npm/_logs/2026-09-06T06_29_06_289Z-debug-0.log

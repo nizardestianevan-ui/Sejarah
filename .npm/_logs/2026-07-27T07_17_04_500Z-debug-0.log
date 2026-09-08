@@ -1,0 +1,44 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.cache/typescript/6.0/.npmrc
+5 silly config load:file:/public/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/public/.npm/_logs/2026-07-27T07_17_04_500Z-
+10 verbose logfile /public/.npm/_logs/2026-07-27T07_17_04_500Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/types-registry 2218ms (cache updated)
+16 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest types-registry@0.1.780
+19 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/types-registry 1083ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+22 silly placeDep ROOT types-registry@0.1.780 REPLACE for:  want: 0.1.780
+23 silly reify mark retired [ '/public/.cache/typescript/6.0/node_modules/types-registry' ]
+24 silly reify moves {
+24 silly reify   '/public/.cache/typescript/6.0/node_modules/types-registry': '/public/.cache/typescript/6.0/node_modules/.types-registry-kn97s8FE'
+24 silly reify }
+25 silly audit bulk request {
+25 silly audit   '@types/react': [ '19.2.17' ],
+25 silly audit   csstype: [ '3.2.3' ],
+25 silly audit   'types-registry': [ '0.1.780' ]
+25 silly audit }
+26 http cache types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.780.tgz 1ms (cache hit)
+27 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.780.tgz. Extracting by manifest.
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 338ms
+29 silly audit report {}
+30 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.780.tgz 5318ms (cache miss)
+31 silly CHANGE node_modules/types-registry
+32 verbose cwd /public/.cache/typescript/6.0
+33 verbose os Linux 6.12.38-android16-5-abA075FXXS6CZF6-4k
+34 verbose node v22.23.0
+35 verbose npm  v10.9.1
+36 verbose exit 0
+37 info ok

@@ -1,0 +1,150 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/home/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install tailwindcss @tailwindcss/postcss postcss
+8 verbose argv "install" "tailwindcss" "@tailwindcss/postcss" "postcss"
+9 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-09-06T06_27_50_859Z-
+10 verbose logfile /home/.npm/_logs/2026-09-06T06_27_50_859Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @tailwindcss/postcss@^4.3.3
+16 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+17 http cache https://registry.npmjs.org/@tailwindcss%2fpostcss 75ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss set size:2504094 disposed:false
+19 silly fetch manifest postcss@^8.5.28
+20 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+21 http cache https://registry.npmjs.org/postcss 32ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/postcss set size:766699 disposed:false
+23 silly fetch manifest tailwindcss@^4.3.3
+24 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+25 http cache https://registry.npmjs.org/tailwindcss 87ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10875803 disposed:false
+27 silly placeDep ROOT @tailwindcss/postcss@4.3.3 REPLACE for:  want: ^4.3.3
+28 silly placeDep ROOT postcss@8.5.28 REPLACE for:  want: ^8.5.28
+29 silly placeDep ROOT tailwindcss@4.3.3 REPLACE for:  want: ^4.3.3
+30 silly reify moves {}
+31 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-wasm32-wasi
+32 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-wasm32-wasi' ]
+33 silly audit bulk request {
+33 silly audit   '@alloc/quick-lru': [ '5.3.0' ],
+33 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+33 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+33 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+33 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+33 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+33 silly audit   '@tailwindcss/node': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.3' ],
+33 silly audit   'detect-libc': [ '2.1.2' ],
+33 silly audit   'enhanced-resolve': [ '5.24.5' ],
+33 silly audit   'graceful-fs': [ '4.2.11' ],
+33 silly audit   jiti: [ '2.7.0' ],
+33 silly audit   lightningcss: [ '1.32.0' ],
+33 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+33 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+33 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+33 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+33 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+33 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+33 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+33 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+33 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+33 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+33 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+33 silly audit   'magic-string': [ '0.30.21' ],
+33 silly audit   nanoid: [ '3.3.18' ],
+33 silly audit   picocolors: [ '1.1.1' ],
+33 silly audit   'source-map-js': [ '1.2.1' ],
+33 silly audit   tapable: [ '2.3.3' ],
+33 silly audit   '@tailwindcss/postcss': [ '4.3.3' ],
+33 silly audit   postcss: [ '8.5.28' ],
+33 silly audit   tailwindcss: [ '4.3.3' ],
+33 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.3' ]
+33 silly audit }
+34 verbose reify failed optional dependency /public/node_modules/lightningcss-win32-x64-msvc
+35 silly reify mark deleted [ '/public/node_modules/lightningcss-win32-x64-msvc' ]
+36 verbose reify failed optional dependency /public/node_modules/lightningcss-win32-arm64-msvc
+37 silly reify mark deleted [ '/public/node_modules/lightningcss-win32-arm64-msvc' ]
+38 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-x64-musl
+39 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-x64-musl' ]
+40 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-x64-gnu
+41 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-x64-gnu' ]
+42 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-arm-gnueabihf
+43 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-arm-gnueabihf' ]
+44 verbose reify failed optional dependency /public/node_modules/lightningcss-freebsd-x64
+45 silly reify mark deleted [ '/public/node_modules/lightningcss-freebsd-x64' ]
+46 verbose reify failed optional dependency /public/node_modules/lightningcss-darwin-x64
+47 silly reify mark deleted [ '/public/node_modules/lightningcss-darwin-x64' ]
+48 verbose reify failed optional dependency /public/node_modules/lightningcss-darwin-arm64
+49 silly reify mark deleted [ '/public/node_modules/lightningcss-darwin-arm64' ]
+50 verbose reify failed optional dependency /public/node_modules/lightningcss-android-arm64
+51 silly reify mark deleted [ '/public/node_modules/lightningcss-android-arm64' ]
+52 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-win32-x64-msvc
+53 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-win32-x64-msvc' ]
+54 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+55 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-win32-arm64-msvc' ]
+56 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-x64-musl
+57 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-x64-musl' ]
+58 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-x64-gnu
+59 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-x64-gnu' ]
+60 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+61 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf' ]
+62 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-freebsd-x64
+63 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-freebsd-x64' ]
+64 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-darwin-x64
+65 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-darwin-x64' ]
+66 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-darwin-arm64
+67 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-darwin-arm64' ]
+68 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-android-arm64
+69 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-android-arm64' ]
+70 http cache @tailwindcss/oxide-linux-arm64-gnu@https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.3.3.tgz 0ms (cache hit)
+71 http cache lightningcss-linux-arm64-gnu@https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz 0ms (cache hit)
+72 silly tarball no local data for lightningcss-linux-arm64-gnu@https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz. Extracting by manifest.
+73 silly tarball no local data for @tailwindcss/oxide-linux-arm64-gnu@https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.3.3.tgz. Extracting by manifest.
+74 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 488ms
+75 silly audit report {}
+76 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz 1231ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.3.3.tgz 1237ms (cache miss)
+78 silly ADD
+79 silly ADD
+80 silly ADD
+81 silly ADD
+82 silly ADD node_modules/lightningcss-linux-arm64-gnu
+83 silly ADD
+84 silly ADD
+85 silly ADD
+86 silly ADD
+87 silly ADD
+88 silly ADD
+89 silly ADD
+90 silly ADD
+91 silly ADD
+92 silly ADD
+93 silly ADD node_modules/@tailwindcss/oxide-linux-arm64-gnu
+94 silly ADD
+95 silly ADD
+96 silly ADD
+97 silly ADD
+98 silly ADD
+99 verbose cwd /public
+100 verbose os Linux 6.12.38-android16-5-abA075FXXS6CZF6-4k
+101 verbose node v22.23.0
+102 verbose npm  v10.9.1
+103 verbose exit 0
+104 info ok

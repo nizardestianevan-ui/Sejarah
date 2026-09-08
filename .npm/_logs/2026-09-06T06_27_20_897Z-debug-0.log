@@ -1,0 +1,414 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/home/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install tailwindcss @tailwindcss/postcss postcss
+8 verbose argv "install" "tailwindcss" "@tailwindcss/postcss" "postcss"
+9 verbose logfile logs-max:10 dir:/home/.npm/_logs/2026-09-06T06_27_20_897Z-
+10 verbose logfile /home/.npm/_logs/2026-09-06T06_27_20_897Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest tailwindcss@*
+16 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/tailwindcss 931ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+19 silly fetch manifest @tailwindcss/postcss@*
+20 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fpostcss 1250ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss set size:undefined disposed:false
+23 silly fetch manifest postcss@*
+24 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/postcss 129ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+27 silly placeDep ROOT @tailwindcss/postcss@4.3.3 OK for:  want: *
+28 silly placeDep ROOT postcss@8.5.28 OK for:  want: *
+29 silly placeDep ROOT tailwindcss@4.3.3 OK for:  want: *
+30 silly fetch manifest postcss@^8.5.16
+31 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+32 silly fetch manifest tailwindcss@4.3.3
+33 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+34 silly fetch manifest @alloc/quick-lru@^5.2.0
+35 silly packumentCache full:https://registry.npmjs.org/@alloc%2fquick-lru cache-miss
+36 silly fetch manifest @tailwindcss/node@4.3.3
+37 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode cache-miss
+38 silly fetch manifest @tailwindcss/oxide@4.3.3
+39 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide cache-miss
+40 silly fetch manifest nanoid@^3.3.18
+41 silly packumentCache full:https://registry.npmjs.org/nanoid cache-miss
+42 silly fetch manifest picocolors@^1.1.1
+43 silly packumentCache full:https://registry.npmjs.org/picocolors cache-miss
+44 http cache https://registry.npmjs.org/postcss 125ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/postcss set size:766699 disposed:false
+46 silly fetch manifest source-map-js@^1.2.1
+47 silly packumentCache full:https://registry.npmjs.org/source-map-js cache-miss
+48 http cache https://registry.npmjs.org/tailwindcss 184ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10875803 disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/@alloc%2fquick-lru 428ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/@alloc%2fquick-lru set size:undefined disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/source-map-js 301ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/source-map-js set size:undefined disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/picocolors 435ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/picocolors set size:undefined disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/nanoid 478ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fnode 616ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode set size:undefined disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide 773ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide set size:undefined disposed:false
+62 silly placeDep ROOT @alloc/quick-lru@5.3.0 OK for: @tailwindcss/postcss@4.3.3 want: ^5.2.0
+63 silly placeDep ROOT @tailwindcss/node@4.3.3 OK for: @tailwindcss/postcss@4.3.3 want: 4.3.3
+64 silly placeDep ROOT @tailwindcss/oxide@4.3.3 OK for: @tailwindcss/postcss@4.3.3 want: 4.3.3
+65 silly fetch manifest jiti@^2.7.0
+66 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+67 silly fetch manifest lightningcss@1.32.0
+68 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+69 silly fetch manifest magic-string@^0.30.21
+70 silly packumentCache full:https://registry.npmjs.org/magic-string cache-miss
+71 silly fetch manifest enhanced-resolve@^5.24.1
+72 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve cache-miss
+73 silly fetch manifest @jridgewell/remapping@^2.3.5
+74 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fremapping cache-miss
+75 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.3.3
+76 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+77 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.3.3
+78 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/lightningcss 139ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:undefined disposed:false
+81 silly fetch manifest @tailwindcss/oxide-wasm32-wasi@4.3.3
+82 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/jiti 173ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/jiti set size:undefined disposed:false
+85 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.3.3
+86 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/magic-string 181ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/magic-string set size:undefined disposed:false
+89 silly fetch manifest @tailwindcss/oxide-android-arm64@4.3.3
+90 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fremapping 256ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fremapping set size:undefined disposed:false
+93 silly fetch manifest @tailwindcss/oxide-linux-x64-gnu@4.3.3
+94 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 347ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve set size:undefined disposed:false
+97 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.3.3
+98 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 347ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi set size:undefined disposed:false
+101 silly fetch manifest @tailwindcss/oxide-win32-x64-msvc@4.3.3
+102 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 560ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:undefined disposed:false
+105 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.3.3
+106 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 450ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:undefined disposed:false
+109 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.3.3
+110 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 763ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:undefined disposed:false
+113 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.3.3
+114 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 722ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:undefined disposed:false
+117 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3
+118 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 690ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:undefined disposed:false
+121 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 839ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu set size:undefined disposed:false
+123 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc 697ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc set size:undefined disposed:false
+125 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 432ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 696ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:undefined disposed:false
+129 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 652ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:undefined disposed:false
+131 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 504ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:undefined disposed:false
+133 silly placeDep ROOT @jridgewell/remapping@2.3.5 OK for: @tailwindcss/node@4.3.3 want: ^2.3.5
+134 silly placeDep ROOT enhanced-resolve@5.24.5 OK for: @tailwindcss/node@4.3.3 want: ^5.24.1
+135 silly placeDep ROOT jiti@2.7.0 OK for: @tailwindcss/node@4.3.3 want: ^2.7.0
+136 silly placeDep ROOT lightningcss@1.32.0 OK for: @tailwindcss/node@4.3.3 want: 1.32.0
+137 silly placeDep ROOT magic-string@0.30.21 OK for: @tailwindcss/node@4.3.3 want: ^0.30.21
+138 silly placeDep ROOT source-map-js@1.2.1 OK for: @tailwindcss/node@4.3.3 want: ^1.2.1
+139 silly fetch manifest @jridgewell/gen-mapping@^0.3.5
+140 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping cache-miss
+141 silly fetch manifest @jridgewell/trace-mapping@^0.3.24
+142 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-miss
+143 silly fetch manifest tapable@^2.3.3
+144 silly packumentCache full:https://registry.npmjs.org/tapable cache-miss
+145 silly fetch manifest graceful-fs@^4.2.4
+146 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+147 silly fetch manifest detect-libc@^2.0.3
+148 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+149 silly fetch manifest lightningcss-darwin-x64@1.32.0
+150 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+151 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+152 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/graceful-fs 103ms (cache revalidated)
+154 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+155 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+156 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 113ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:undefined disposed:false
+159 silly fetch manifest lightningcss-android-arm64@1.32.0
+160 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 118ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:undefined disposed:false
+163 silly fetch manifest lightningcss-linux-x64-gnu@1.32.0
+164 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 127ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping set size:undefined disposed:false
+167 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+168 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/detect-libc 127ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+171 silly fetch manifest lightningcss-win32-x64-msvc@1.32.0
+172 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/tapable 135ms (cache miss)
+174 silly packumentCache full:https://registry.npmjs.org/tapable set size:undefined disposed:false
+175 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+176 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 146ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping set size:undefined disposed:false
+179 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+180 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 67ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:undefined disposed:false
+183 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+184 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 61ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:undefined disposed:false
+187 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+188 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 102ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:undefined disposed:false
+191 silly fetch manifest @jridgewell/sourcemap-codec@^1.5.5
+192 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc 108ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc set size:undefined disposed:false
+195 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 102ms (cache miss)
+196 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:undefined disposed:false
+197 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 120ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:undefined disposed:false
+199 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 98ms (cache miss)
+200 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:undefined disposed:false
+201 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 84ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:undefined disposed:false
+203 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 89ms (cache miss)
+204 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:undefined disposed:false
+205 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 85ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:undefined disposed:false
+207 silly placeDep ROOT @jridgewell/gen-mapping@0.3.13 OK for: @jridgewell/remapping@2.3.5 want: ^0.3.5
+208 silly placeDep ROOT @jridgewell/trace-mapping@0.3.31 OK for: @jridgewell/remapping@2.3.5 want: ^0.3.24
+209 silly fetch manifest @jridgewell/sourcemap-codec@^1.5.0
+210 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+211 silly fetch manifest @jridgewell/resolve-uri@^3.1.0
+212 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri cache-miss
+213 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.14
+214 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+215 http cache https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 27ms (cache hit)
+216 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:65255 disposed:false
+217 http cache https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 28ms (cache hit)
+218 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:65255 disposed:false
+219 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec dispose
+220 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 86ms (cache miss)
+221 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri set size:undefined disposed:false
+222 silly placeDep ROOT @jridgewell/sourcemap-codec@1.6.0 OK for: @jridgewell/gen-mapping@0.3.13 want: ^1.5.0
+223 silly placeDep ROOT @jridgewell/resolve-uri@3.1.2 OK for: @jridgewell/trace-mapping@0.3.31 want: ^3.1.0
+224 silly placeDep ROOT @tailwindcss/oxide-android-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+225 silly placeDep ROOT @tailwindcss/oxide-darwin-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+226 silly placeDep ROOT @tailwindcss/oxide-darwin-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+227 silly placeDep ROOT @tailwindcss/oxide-freebsd-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+228 silly placeDep ROOT @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+229 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+230 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+231 silly placeDep ROOT @tailwindcss/oxide-linux-x64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+232 silly placeDep ROOT @tailwindcss/oxide-linux-x64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+233 silly placeDep ROOT @tailwindcss/oxide-wasm32-wasi@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+234 silly placeDep ROOT @tailwindcss/oxide-win32-arm64-msvc@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+235 silly placeDep ROOT @tailwindcss/oxide-win32-x64-msvc@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+236 silly placeDep ROOT graceful-fs@4.2.11 OK for: enhanced-resolve@5.24.5 want: ^4.2.4
+237 silly placeDep ROOT tapable@2.3.3 OK for: enhanced-resolve@5.24.5 want: ^2.3.3
+238 silly placeDep ROOT detect-libc@2.1.2 OK for: lightningcss@1.32.0 want: ^2.0.3
+239 silly placeDep ROOT lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+240 silly placeDep ROOT lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+241 silly placeDep ROOT lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+242 silly placeDep ROOT lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+243 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+244 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+245 silly placeDep ROOT lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+246 silly placeDep ROOT lightningcss-linux-x64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+247 silly placeDep ROOT lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+248 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+249 silly placeDep ROOT lightningcss-win32-x64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+250 silly placeDep ROOT nanoid@3.3.18 OK for: postcss@8.5.28 want: ^3.3.18
+251 silly placeDep ROOT picocolors@1.1.1 OK for: postcss@8.5.28 want: ^1.1.1
+252 silly reify moves {}
+253 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-wasm32-wasi
+254 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-wasm32-wasi' ]
+255 verbose reify failed optional dependency /public/node_modules/lightningcss-win32-x64-msvc
+256 silly reify mark deleted [ '/public/node_modules/lightningcss-win32-x64-msvc' ]
+257 verbose reify failed optional dependency /public/node_modules/lightningcss-win32-arm64-msvc
+258 silly reify mark deleted [ '/public/node_modules/lightningcss-win32-arm64-msvc' ]
+259 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-x64-musl
+260 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-x64-musl' ]
+261 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-x64-gnu
+262 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-x64-gnu' ]
+263 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-arm64-gnu
+264 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-arm64-gnu' ]
+265 verbose reify failed optional dependency /public/node_modules/lightningcss-linux-arm-gnueabihf
+266 silly reify mark deleted [ '/public/node_modules/lightningcss-linux-arm-gnueabihf' ]
+267 verbose reify failed optional dependency /public/node_modules/lightningcss-freebsd-x64
+268 silly reify mark deleted [ '/public/node_modules/lightningcss-freebsd-x64' ]
+269 verbose reify failed optional dependency /public/node_modules/lightningcss-darwin-x64
+270 silly reify mark deleted [ '/public/node_modules/lightningcss-darwin-x64' ]
+271 verbose reify failed optional dependency /public/node_modules/lightningcss-darwin-arm64
+272 silly reify mark deleted [ '/public/node_modules/lightningcss-darwin-arm64' ]
+273 verbose reify failed optional dependency /public/node_modules/lightningcss-android-arm64
+274 silly reify mark deleted [ '/public/node_modules/lightningcss-android-arm64' ]
+275 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-win32-x64-msvc
+276 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-win32-x64-msvc' ]
+277 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+278 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-win32-arm64-msvc' ]
+279 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-x64-musl
+280 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-x64-musl' ]
+281 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-x64-gnu
+282 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-x64-gnu' ]
+283 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+284 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-arm64-gnu' ]
+285 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+286 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf' ]
+287 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-freebsd-x64
+288 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-freebsd-x64' ]
+289 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-darwin-x64
+290 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-darwin-x64' ]
+291 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-darwin-arm64
+292 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-darwin-arm64' ]
+293 verbose reify failed optional dependency /public/node_modules/@tailwindcss/oxide-android-arm64
+294 silly reify mark deleted [ '/public/node_modules/@tailwindcss/oxide-android-arm64' ]
+295 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+296 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz 0ms (cache hit)
+297 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+298 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz 0ms (cache hit)
+299 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+300 http cache @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+301 http cache lightningcss-linux-arm64-musl@https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz 0ms (cache hit)
+302 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz 0ms (cache hit)
+303 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+304 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+305 http cache @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+306 http cache magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 0ms (cache hit)
+307 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 0ms (cache hit)
+308 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.5.tgz 0ms (cache hit)
+309 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+310 http cache @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.3.0.tgz 0ms (cache hit)
+311 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz 0ms (cache hit)
+312 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz 0ms (cache hit)
+313 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.28.tgz 0ms (cache hit)
+314 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz 0ms (cache hit)
+315 http cache @tailwindcss/oxide-linux-arm64-musl@https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.3.3.tgz 0ms (cache hit)
+316 http cache @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+317 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+318 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz. Extracting by manifest.
+319 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+320 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz. Extracting by manifest.
+321 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+322 http cache @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz 0ms (cache hit)
+323 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+324 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz. Extracting by manifest.
+325 silly tarball no local data for lightningcss-linux-arm64-musl@https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz. Extracting by manifest.
+326 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+327 silly tarball no local data for @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+328 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+329 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.5.tgz. Extracting by manifest.
+330 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz. Extracting by manifest.
+331 silly tarball no local data for @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.3.0.tgz. Extracting by manifest.
+332 silly tarball no local data for magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz. Extracting by manifest.
+333 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz. Extracting by manifest.
+334 silly tarball no local data for @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz. Extracting by manifest.
+335 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.28.tgz. Extracting by manifest.
+336 silly tarball no local data for @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+337 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz. Extracting by manifest.
+338 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz. Extracting by manifest.
+339 silly tarball no local data for @tailwindcss/oxide-linux-arm64-musl@https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.3.3.tgz. Extracting by manifest.
+340 silly tarball no local data for @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz. Extracting by manifest.
+341 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 403ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 409ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz 408ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 426ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz 436ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz 454ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz 547ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 554ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz 564ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 566ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 624ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz 643ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.3.0.tgz 642ms (cache miss)
+354 http fetch GET 200 https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 748ms (cache miss)
+355 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.28.tgz 848ms (cache miss)
+356 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz 864ms (cache miss)
+357 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 884ms (cache miss)
+358 http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 881ms (cache miss)
+359 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 896ms (cache miss)
+360 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 941ms (cache miss)
+361 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.3.3.tgz 982ms (cache miss)
+362 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.5.tgz 1003ms (cache miss)
+363 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz 2913ms (cache miss)
+364 silly ADD node_modules/picocolors
+365 silly ADD node_modules/nanoid
+366 silly ADD
+367 silly ADD
+368 silly ADD
+369 silly ADD
+370 silly ADD node_modules/lightningcss-linux-arm64-musl
+371 silly ADD
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD node_modules/detect-libc
+378 silly ADD node_modules/tapable
+379 silly ADD node_modules/graceful-fs
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD
+385 silly ADD node_modules/@tailwindcss/oxide-linux-arm64-musl
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly ADD
+390 silly ADD
+391 silly ADD
+392 silly ADD node_modules/@jridgewell/resolve-uri
+393 silly ADD node_modules/@jridgewell/sourcemap-codec
+394 silly ADD node_modules/@jridgewell/trace-mapping
+395 silly ADD node_modules/@jridgewell/gen-mapping
+396 silly ADD node_modules/source-map-js
+397 silly ADD node_modules/magic-string
+398 silly ADD node_modules/lightningcss
+399 silly ADD node_modules/jiti
+400 silly ADD node_modules/enhanced-resolve
+401 silly ADD node_modules/@jridgewell/remapping
+402 silly ADD node_modules/@tailwindcss/oxide
+403 silly ADD node_modules/@tailwindcss/node
+404 silly ADD node_modules/@alloc/quick-lru
+405 silly ADD node_modules/tailwindcss
+406 silly ADD node_modules/postcss
+407 silly ADD node_modules/@tailwindcss/postcss
+408 verbose cwd /public
+409 verbose os Linux 6.12.38-android16-5-abA075FXXS6CZF6-4k
+410 verbose node v22.23.0
+411 verbose npm  v10.9.1
+412 verbose exit 0
+413 info ok

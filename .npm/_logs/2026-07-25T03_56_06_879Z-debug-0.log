@@ -1,0 +1,36 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.cache/typescript/6.0/.npmrc
+5 silly config load:file:/public/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/public/.npm/_logs/2026-07-25T03_56_06_879Z-
+10 verbose logfile /public/.npm/_logs/2026-07-25T03_56_06_879Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/types-registry 508ms (cache revalidated)
+15 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:629532 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest types-registry@0.1.779
+18 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/types-registry 104ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1368588 disposed:false
+21 silly placeDep ROOT types-registry@0.1.779 REPLACE for:  want: 0.1.779
+22 silly reify moves {}
+23 silly audit bulk request {
+23 silly audit   '@types/react': [ '19.2.17' ],
+23 silly audit   csstype: [ '3.2.3' ],
+23 silly audit   'types-registry': [ '0.1.779' ]
+23 silly audit }
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 255ms
+25 silly audit report {}
+26 verbose cwd /public/.cache/typescript/6.0
+27 verbose os Linux 6.12.38-android16-5-abA075FXXS6CZF6-4k
+28 verbose node v22.23.0
+29 verbose npm  v10.9.1
+30 verbose exit 0
+31 info ok
